@@ -29,7 +29,6 @@ jobs:
         run: |
           git config --global user.email ${{ secrets.USER_EMAIL }}
           git config --global user.name ${{ secrets.USER_NAME }}
-          echo -e "草" >> commit_log.txt
           git add commit_log.txt
           git commit -m "[add] 自動コミット:${{ env.CURRENT_DATETIME }}"
           git push origin main    
