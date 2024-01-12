@@ -1,1 +1,2 @@
 # kusa-hayasu
+## クソアプリ
